@@ -1,8 +1,7 @@
 app.directive("filepicker", function($location){
 	return {
 		scope: {
-			callback: '&',
-			label: '@'
+			callback: '&'
 		},
 		transclude: true,
 		restrict: "A",
