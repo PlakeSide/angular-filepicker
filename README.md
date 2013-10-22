@@ -5,4 +5,4 @@ Directive for filepicker.io
 
 use 
 
-<div filepicker path="/WHERETOPUTONYOURS3SERVER/" callback="callBackToExecuteAfterUpload(file)" multiple=false>Add Photo</div>
+&lt;div filepicker path=&quot;/WHERETOPUTONYOURS3SERVER/&quot; callback=&quot;callBackToExecuteAfterUpload(file)&quot; multiple=false&gt;Add Photo&lt;/div&gt;
