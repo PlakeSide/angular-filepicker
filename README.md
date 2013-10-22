@@ -2,6 +2,7 @@ angular-filepicker
 ==================
 
 Directive for filepicker.io
+requires scripts from filepicker.io
 
 use 
 
