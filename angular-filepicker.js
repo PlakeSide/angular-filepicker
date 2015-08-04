@@ -16,7 +16,7 @@ app.directive("filepicker", function () {
                 };
 
                 var path = attrs.path ? attrs.path : '/uploads/',
-                        container = attrs.container ? attrs.container : 'documents.e-freightliner.com';
+                        container = attrs.container || '';
 
                 var store_options = {
                     location: 'S3',
