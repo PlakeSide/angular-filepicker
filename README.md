@@ -5,9 +5,9 @@ Directive for filepicker.io
 <h3> Getting Started</h3>
 
   1. Add filepicker script to your index.html file before </body>
-      <pre class="highlight highlight-text-html-basic">
+      ```html
         <script type="text/javascript" src="//api.filepicker.io/v2/filepicker.js"></script>
-      </pre>
+      ```
 
   2. Add "filepicker" module to app.js
 
