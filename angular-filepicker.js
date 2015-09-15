@@ -1,4 +1,5 @@
-app.directive("filepicker", function () {
+angular.module('filepicker', [])
+.directive("filepicker", function () {
     return {
         scope: {
             callback: '&',
