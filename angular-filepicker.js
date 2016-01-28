@@ -12,7 +12,7 @@ angular.module('filepicker', [])
             scope.pickFiles = function () {
                 var picker_options = {
                     container: 'modal',
-                    mimetypes: attrs.mimetypes ? eval(attrs.mimetypes) : ['*'],
+                    mimetypes: attrs.mimetypes ? eval(attrs.mimetypes) : ['*/*'],
                     multiple: attrs.multiple ? eval(attrs.multiple) : false
                 };
 
